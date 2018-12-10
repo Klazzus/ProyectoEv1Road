@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-
 public interface iMisEventosCanvas : IEventSystemHandler
 {
     // Esta funcion se puede invocar via messaging system
