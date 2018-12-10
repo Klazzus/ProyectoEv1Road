@@ -78,7 +78,7 @@ public class Car1 : MonoBehaviour {
         {
             if (Rival.GetComponent<Transform>().position.y < this.GetComponent<Transform>().position.y)
             {
-                TextParrilla.text = "1. " + PlayerName + " \n 2. " + Rival.GetComponent<Car1>().PlayerName;
+                TextParrilla.text = "1. " + PlayerName + " \n2. " + Rival.GetComponent<Car1>().PlayerName;
 
             }
 
@@ -154,7 +154,7 @@ public class Car1 : MonoBehaviour {
         
         if (collision.gameObject.tag == "Meta")
         {
-            TextMeta.text = "¡VICTORIA! El jugador " + PlayerName + " ha ganado";
+            TextMeta.text = "¡VICTORIA! \nEl jugador " + PlayerName + " ha ganado";
             Debug.Log("El objeto " + PlayerName + "ha colisionado con " + collision.gameObject.name);
             Debug.Log("El jugador " + PlayerName + " ha llegado a la Meta!");
             end = true; 
